@@ -1,4 +1,18 @@
+# Entornos Virtuales (¡Muy importante!)
+.venv/
+venv/
+env/
+
+# Jupyter Notebook checkpoints
 .ipynb_checkpoints/
+
+# Python cache
 __pycache__/
-*.log
+*.py[cod]
+
+# Datos pesados (Opcional: solo si tus archivos CSV son >50MB)
+# data/*.csv
+
+# Archivos de sistema
 .DS_Store
+Thumbs.db
